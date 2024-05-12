@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light gray background */
+    color: #333; /* Text color */
+    text-align: center;
+}
+
+header {
+    background-color: #ff6699; /* Pink header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background for sections */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for sections */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for sections */
+}
+
+footer {
+    background-color: #ff6699; /* Pink footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#slideshow {
+    text-align: center; /* Center the images */
+}
+
+#slideshow img {
+    display: none; /* Hide all images by default */
+     /* Ensure images don't exceed their container */
+    display: block; 
+    margin-left: auto; margin-right: auto;
+     width: 50%
+    
+}
